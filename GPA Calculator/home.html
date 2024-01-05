@@ -1,0 +1,91 @@
+<!DOCTYPE hmtl>
+<html>
+
+<!--background-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: url('goose.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1; 
+        }
+        h1 {
+            text-align: center;
+            font-size: 5em; 
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 100px;
+            font-family: 'Times New Roman', serif;
+        }
+        h3 {
+            text-align: center;
+            font-size: 25; 
+            color: rgba(255, 255, 255, 0.8);
+            font-family: 'Times New Roman', serif;
+        }
+
+        p{
+            text-align: center;
+            font-size: 2em; 
+            color: rgba(255, 255, 255, 0.8);
+            font-family: 'Times New Roman', serif;
+        }
+
+        form{
+            text-align: center;
+            font-size: 2em; 
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: -25;
+            font-family: 'Times New Roman', serif;
+        }
+
+        button{
+            text-align: center;
+            font-size: 1.5em; 
+            color: rgba(0, 0, 0, 0.8);
+            margin-top: -20;
+            font-family: 'Times New Roman', serif;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+<!--text-->
+    <h1> WELCOME TO GPAGOOSE</h1>
+    <h3>We are aspiring waterloo students who wanted to learn how to use javascript, so this is what we made!</h3>
+    <p> Insert your following grades </p> 
+
+    <!--form-->
+    <form>
+        <label> Subject 1: </label>
+        <input type = "text" placeholder = "Ex. 70%">
+        <br>
+        <label> Subject 2: </label>
+        <input type = "text" placeholder = "Ex. 70%">
+        <br>
+        <label> Subject 3: </label>
+        <input type = "text" placeholder = "Ex. 70%">
+        <br>
+        <label> Subject 4: </label>
+        <input type = "text" placeholder = "Ex. 70%">
+        <br>
+        <label> Subject 5: </label>
+        <input type = "text" placeholder = "Ex. 70%">
+    </form>
+
+    <!--button-->
+        <button>Submit</button>
+</body>
+</html>
+
